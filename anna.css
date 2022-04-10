@@ -1,0 +1,65 @@
+body {
+   padding: 20px;
+}
+
+.anna__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.anna__main__header {
+    margin-bottom: 20px;
+}
+
+.anna__main__date-btn {
+    width: 150px;
+    height: 40px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.anna__main__date-btn:hover {
+    background-color: rgb(249, 121, 142);
+
+}
+
+#car {
+    color:darkblue;
+}
+
+#employer {
+    color: cyan;
+}
+
+.anna__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anna__media__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: deepskyblue;
+}
+
+.anna__media__image__img {
+    width: 475px;
+    height: 475px;
+}

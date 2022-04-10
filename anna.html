@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="anna.css">
+    <script src="anna.js"></script>
+</head>
+<body>
+    <div class="anna__main">
+        <h1 class="anna__main__header" id="name"></h1>
+        <form >
+            <input id="nameField" type="text">
+        </form>
+        <button onclick="handleClick()">Enter Name</button>
+        <button class="anna__main__date-btn" onclick="handleDate()">Get Date</button>
+        <button onclick="handleAlert()">Click Me!</button>
+        <div id="date"></div>
+    </div>
+    <div class="anna__facts">
+       <h2>Favorite Color: <span id="color"></span></h2>
+       <h2>My Car: <span id="car"></span></h2>  
+       <h2>Where I work: <span id="employer"></span></h2> 
+    </div>
+    <div class="anna__media">
+        <div class="anna__media__image">
+            <img class="anna__media__image__img" id="image" src="images/dogs.jpg" alt="dogs">
+        </div>
+    </div>
+    
+    
+</body>
+</html>
